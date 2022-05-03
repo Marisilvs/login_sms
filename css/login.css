@@ -1,0 +1,113 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  /*background-color: rgb(147, 208, 147);*/
+  
+
+ /* background-color: #032541;*/
+  font-family: "Roboto Mono";
+}
+.div_global{
+  height: 600px;
+  width: 500px;
+  border: 1px solid black;
+  margin-left: 500px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+#title{
+  
+  margin-left: 35%;
+}
+
+/*titulos origem e destino
+.titulos_inputs{
+  
+  margin-left: 30px;
+  margin-top: 5px;
+}*/
+
+/*estilização do input origem*/
+#id_input_email{
+  margin-left: 35px;
+  margin-top: -560px;
+  width: 70%;
+}
+
+/*fim estilização do input origem*/
+.input_senha{
+    
+}
+#id_input_senha{
+  margin-left: 39.5px;
+  margin-top: 10px;
+  width: 70%;
+}
+
+.input_enviar{
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-top: 40px;
+  resize: none;
+  width: 430px;
+}
+#id_input_enviar{
+  border-radius: 10px;
+  margin-left: 18px;
+  margin-top: -10px;
+  resize: none;
+  width: 430px;
+}
+
+#botao_enviar{
+  border-radius: 5px;
+  margin-left: 18px;
+  height: 20px;
+  width: 435px;
+}
+#botao_enviar:hover{
+  
+  background-color: rgb(148, 201, 148);
+}
+.campo_mensagens{
+  border: 1px solid black;
+  height: 250px;
+  width: 430px;
+  margin-left: 50px;
+  margin-top: 30px;
+
+  
+}
+#exibir{
+  overflow: auto;
+  list-style-type: none;
+}
+#logo{
+  margin-top: -700px ;
+  width: 20px;
+  height: 20px;
+}
+#imagem_logo{
+  width: 45px;
+  height: 45px;
+  margin-left: 305px;
+  margin-top: 25px;
+  
+}
+
+#imagem_fundo{
+  border-radius: 10px;
+  height: 600px;
+  width: 500px;
+  border: 2px solid black;
+
+    
+ 
+}
+
+.direita{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
